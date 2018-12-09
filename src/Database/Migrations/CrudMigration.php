@@ -1,5 +1,5 @@
 <?php
-namespace LaravelMigrationInherit\Database\Migrations;
+namespace LaravelSubmigration\Database\Migrations;
 
 use Illuminate\Database\Migrations\Migration;
 

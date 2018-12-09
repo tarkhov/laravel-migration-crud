@@ -1,5 +1,5 @@
 <?php
-namespace LaravelMigrationInherit\Database\Migrations;
+namespace LaravelSubmigration\Database\Migrations;
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
