@@ -1,10 +1,10 @@
 <?php
-namespace LaravelSubmigration\Database\Migrations;
+namespace LaravelSubMigration\Database\Migrations;
 
 use Illuminate\Support\Facades\Schema;
 use Illuminate\Database\Schema\Blueprint;
 
-abstract class CreateMigration extends CrudMigration
+abstract class CreateMigration extends SubMigration
 {
     /**
      * Create table.

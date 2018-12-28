@@ -1,7 +1,7 @@
 {
     "name": "tarkhov/laravel-submigration",
     "description": "Laravel database migration inheritance.",
-    "keywords": ["laravel", "crud"],
+    "keywords": ["laravel", "crud", "migration", "database"],
     "type": "library",
     "homepage": "https://github.com/tarkhov/laravel-submigration",
     "license": "MIT",
@@ -20,7 +20,7 @@
     },
     "autoload": {
         "psr-4": {
-            "LaravelSubmigration\\": "src/"
+            "LaravelSubMigration\\": "src/"
         }
     },
     "require": {

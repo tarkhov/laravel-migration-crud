@@ -2,7 +2,7 @@
 namespace App\Database\Migrations;
 
 use Illuminate\Database\Schema\Blueprint;
-use LaravelSubmigration\Database\Migrations\CreateMigration;
+use LaravelSubMigration\Database\Migrations\CreateMigration;
 
 class PageCreateMigration extends CreateMigration
 {

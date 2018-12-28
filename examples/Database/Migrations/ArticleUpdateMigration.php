@@ -2,7 +2,7 @@
 namespace App\Database\Migrations;
 
 use Illuminate\Database\Schema\Blueprint;
-use LaravelSubmigration\Database\Migrations\UpdateMigration;
+use LaravelSubMigration\Database\Migrations\UpdateMigration;
 
 class ArticleUpdateMigration extends UpdateMigration 
 {
