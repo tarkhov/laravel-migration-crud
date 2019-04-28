@@ -4,14 +4,21 @@ Laravel database migration inheritance.
 
 ### Contents
 
-1. [Installation](#installation)
+1. [Compatibility](#compatibility)
+2. [Installation](#installation)
    1. [Composer](#composer)
-2. [Usage](#usage)
+3. [Usage](#usage)
    1. [Create table](#create-table)
    2. [Create subtable](#create-subtable)
    2. [Update table columns](#update-table-columns)
-3. [Author](#author)
-4. [License](#license)
+4. [Author](#author)
+5. [License](#license)
+
+## Compatibility
+
+Library | Version
+------- | -------
+Laravel | 5.5
 
 ## Installation
 
@@ -30,7 +37,7 @@ composer require tarkhov/laravel-submigration
 namespace App\Database\Migrations;
 
 use Illuminate\Database\Schema\Blueprint;
-use LaravelSubmigration\Database\Migrations\CreateMigration;
+use LaravelSubMigration\Database\Migrations\CreateMigration;
 
 class PageCreateMigration extends CreateMigration
 {
@@ -79,7 +86,7 @@ class ArticleCreateMigration extends PageCreateMigration
 namespace App\Database\Migrations;
 
 use Illuminate\Database\Schema\Blueprint;
-use LaravelSubmigration\Database\Migrations\UpdateMigration;
+use LaravelSubMigration\Database\Migrations\UpdateMigration;
 
 class ArticleUpdateMigration extends UpdateMigration 
 {

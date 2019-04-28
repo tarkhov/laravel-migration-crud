@@ -11,5 +11,6 @@ class ArticleCreateMigration extends PageCreateMigration
     {
         parent::create($table);
         $table->integer('category_id')->unsigned();
+        $table->foreign('category_id')->references('id')->on('app_category');
     }
 }
