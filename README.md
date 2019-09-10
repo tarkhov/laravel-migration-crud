@@ -59,7 +59,7 @@ class PageCreateMigration extends CreateMigration
 }
 ```
 
-### Create table
+### Create subtable
 
 ```php
 <?php
