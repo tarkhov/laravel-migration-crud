@@ -18,7 +18,7 @@ Laravel database migration inheritance.
 
 Library | Version
 ------- | -------
-Laravel | 5.5
+Laravel | >=5.5
 
 ## Installation
 
@@ -106,7 +106,6 @@ class ArticleUpdateMigration extends UpdateMigration
 * [Facebook](https://www.facebook.com/alex.tarkhov)
 * [Twitter](https://twitter.com/alextarkhov)
 * [Medium](https://medium.com/@tarkhov)
-* [Product Hunt](https://www.producthunt.com/@tarkhov)
 
 ## License
 
